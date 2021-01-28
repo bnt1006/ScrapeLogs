@@ -2,7 +2,7 @@
 Scrapes EVTX log files
 
 ## Description:
-Scrapes EVTX log files found using wevutil for amount of time in X minutes. Output as text data.
+Scrapes EVTX log files found using wevutil for amount of time in X minutes for a particular term. Output as text data.
 Default 60 minutes. Default output in $env:TEMP\ScrapedLogs.txt
 
 ## Use Cases:
