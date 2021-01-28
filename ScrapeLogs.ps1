@@ -11,7 +11,7 @@
 .NOTES
     Time is reference by minute. 1 hour = 60, 1 day = 1440, 1 week = 10080, 1 month ~= 43800, 1 year ~= 525600
 .LINK
-    Github repo: https://github.com/redcanaryco/atomic-red-team
+    Github repo: https://github.com/bnt1006/ScrapeLogs
 #>
 function Scrape-Logs {
     [CmdletBinding(DefaultParameterSetName = 'commands',
