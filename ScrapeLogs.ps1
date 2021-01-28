@@ -2,7 +2,7 @@
 .SYNOPSIS
     Scrapes EVTX log files
 .DESCRIPTION
-    Scrapes EVTX log files found using wevutil for amount of time x minutes. Output as text data.
+    Scrapes EVTX log files found using wevutil for amount of time in X minutes for a particular term. Output as text data.
     Default 60 minutes. Default output in $env:TEMP\ScrapedLogs.txt
 .EXAMPLE Check all logs for the term "Windows Defender" in the past hour
     PS/> Scrape-Logs "Windows Defender" 60
